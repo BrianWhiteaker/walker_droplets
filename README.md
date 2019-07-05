@@ -9,7 +9,7 @@ vibrates at around 60 HZ vertically.  When a pointed object such as a toothpick 
 fall off, and if the timing is right, will fall into a trough and begin bouncing on a cushion of air without coalescing
 into the bath. The droplet can range from 0.5-1.5mm in diameter. In various experiments the droplet can continue propogation
 for days. A key point is to keep the vibration below the Faraday threshold of the corral, thereby creating standing waves
-which interfere with the trajectories. If this limit maintained the droplets will explore the corral/bath with "chaotic" 
+which interfere with the trajectories. If this limit is maintained the droplets will explore the corral/bath with "chaotic" 
 trajectories.  It is true that the statistics of these trajectories mimic the statistics of a particle in a quantum corral.
 
 ### Why do they travel?
