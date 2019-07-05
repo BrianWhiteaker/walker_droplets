@@ -40,16 +40,30 @@ way to use energy available in some system.  No imagination required. I should s
 the needed model.
 
 ### The Model
-As I have accumulated knowledge I realized that a CNN paired with an RNN would be a great way to approach this problem. The
+As I have accumulated knowledge I realized that CNN's paired with RNN's would be a great way to approach this problem. The
 CNN would be used to learn features of an image frame taken in sequence from video footage of a droplet propogating
 in a circular corral. These features would be spatial local structure relationships of waves interacting captured in an image. 
 These features could then be passed in time-sequential order to the RNN. Here the RNN would learn temporal structure from 
-feature set to feature set in time. The decoder would reconstruct a prediction image. This is similar to character sequence
-generation, where a seed character is given to the model. A prediction of the next character is returned, and this is passed
-to the network in order to generate the next prediction to follow.
+feature set to feature set in time.
+
+More specifically, a CAE is trained with the encoder and decoder attached together. Once trained, they are separated
+and an LSTM is inserted between them. This three part network is then trained as a whole. The encoder breaks each image
+into useful filters, the LSTM learns the sequence of filters, and the decoder reconstructs an image. For the LSTM, increasing 
+context lengths are used to a maximum of 15. Truncated backpropogation through time is used on the unrolled sequence of 
+forward passes for a given context length. 
+
+Making predictions with the trained model is similar to character sequence generation, where a seed character is given to the 
+model. A prediction of the next character is returned by said model, and this is passed back into the network in order to 
+generate the following prediciton.
 
 At a later date I found [this](https://www.quantamagazine.org/machine-learnings-amazing-ability-to-predict-chaos-20180418/) 
-article describing work at MIT and U of Maryland in predicting flame fronts or propogating differential equations. They used Reservoir Computing or LSTM's for the task.
+article describing work at MIT and U of Maryland in predicting flame fronts or propogating differential equations. They used 
+Reservoir Computing or LSTM's for the task.
 
 Hopefully I will be as successful.
+
+### Work to follow
+1) GRU recurrent layer comparison.
+2) Construct a Reservoir Computing network.
+3) Work in the direction of NN's and DE governing equations.
 
