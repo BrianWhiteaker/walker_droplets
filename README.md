@@ -27,7 +27,7 @@ Secondly, it should be noted that some issues have arisen around the experiments
 revolve around the double slit experiment performed with walker droplets. It may be that these issue will be resolved in a 
 future experiment. For the time being we still see the quantum tunneling, orbit quantization, gravitation, spin lattices, and 
 cooper pair analog behavior. Beyond the walker experiments, there have been some interesting experiments with fluid analogs of
-[Unruh radiation](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.022118), and [sonic black holes](https://www.quantamagazine.org/philosophers-debate-new-sonic-black-hole-discovery-20190625/).  
+[Unruh radiation](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.022118) and [sonic black holes](https://www.quantamagazine.org/philosophers-debate-new-sonic-black-hole-discovery-20190625/).  
 
 ### Motivation
 I am personally interested in de Broglie-Bohm Mechanics as a quantum interpretation.  I became interested in machine learning
@@ -36,7 +36,8 @@ we are limited by our perception of the world, experiences, and creativity.  So 
 learning given data might provide a way to move beyond the bounds of logic, and allow a purely logical system to organize
 towards solutions we have not considered- similar to AlphaGo's invention of never-seen-before strategies in Go. A great 
 example is how Biomimetics draws inspiration from engineering from nature. Organisms in nature arise as solutions to the best
-way to use energy available in some system.  No imagination required. 
+way to use energy available in some system.  No imagination required. I should say the imagination will go into how to build 
+the needed model.
 
 ### The Model
 As I have accumulated knowledge I realized that a CNN paired with an RNN would be a great way to approach this problem. The
