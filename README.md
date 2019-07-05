@@ -35,7 +35,7 @@ and data science because of a fascination with math and systems that self-organi
 we are limited by our perception of the world, experiences, and creativity.  So my thought is that the pure logic of machine
 learning given data might provide a way to move beyond the bounds of logic, and allow a purely logical system to organize
 towards solutions we have not considered- similar to AlphaGo's invention of never-seen-before strategies in Go. A great 
-example is how Biomimetics draws inspiration from engineering from nature. Organisms in nature arise as solutions to the best
+example is how Biomimetics draws inspiration for engineering from nature. Organisms in nature arise as solutions to the best
 way to use energy available in some system.  No imagination required. I should say the imagination will go into how to build 
 the needed model.
 
