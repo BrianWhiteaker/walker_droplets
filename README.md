@@ -27,8 +27,7 @@ Secondly, it should be noted that some issues have arisen around the experiments
 revolve around the double slit experiment performed with walker droplets. It may be that these issue will be resolved in a 
 future experiment. For the time being we still see the quantum tunneling, orbit quantization, gravitation, spin lattices, and 
 cooper pair analog behavior. Beyond the walker experiments, there have been some interesting experiments with fluid analogs of
-[Unruh radiation](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.022118), and [sonic black holes]
-(https://www.quantamagazine.org/philosophers-debate-new-sonic-black-hole-discovery-20190625/).  
+[Unruh radiation](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.98.022118), and [sonic black holes](https://www.quantamagazine.org/philosophers-debate-new-sonic-black-hole-discovery-20190625/).  
 
 ### Motivation
 I am personally interested in de Broglie-Bohm Mechanics as a quantum interpretation.  I became interested in machine learning
